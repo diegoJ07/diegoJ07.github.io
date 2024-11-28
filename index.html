@@ -1,94 +1,311 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://kit.fontawesome.com/6f59efdb02.js" crossorigin="anonymous"></script>
-  <script src="https://pruebachatbot.com/js/widget.js" Id="001f75a2-1005-47c7-8a41-bd2c8f282d99" chatid="40"></script>
-
-  <title>Diego Lopez - Portafolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+  />
 </head>
 <body>
-  <header>
-    <h1>Diego Lopez</h1>
-    <p>Diseñador Creativo</p>
-  </header>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>D<span>L</span></h2>
+        </div>
+        <ul class="menu">
+          <li><a href="#" class="active">Inicio</a></li>
+          <li><a href="#About-me">About me </a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Contact-me">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info-content">
+        <h1>I'm <span>Diego</span> Lopez</h1>
+        <p>
+          Every line of code I write is designed for your success. <br />I make
+          ideas come to life, pixel by pixel. <br />I program with purpose, I
+          build with passion.
+        </p>
+      </div>
+      <img src="./imagenes/foto-Diego.png" alt="" />
+    </main>
+  </div>
+  <div class="about" id="About-me">
+    <img src="./imagenes/Foto-vista.jpg" alt="" />
+    <div class="about-info">
+      <h2>About me</h2>
 
-  <section id="projects">
-    <h2>Proyectos Destacados</h2>
-    <!-- Galería de proyectos -->
-    <div class="project">
-      <img src="imagenes/proyecto1.jpg" alt="proyecto1">
-      <img src="imagenes/proyecto1.2.jpg" alt="proyecto1">
-      <h3>Proyecto 1</h3>
-      <p>Página de cafetería,proyecto ficticio,con un menú.<br> En éste podemos ver "Home","Menú" y "Contactanos".<br> "Menu" su vez se despliega con 3 opciones mas("Nuestros Cafes","Delicias" e "Infantiles").<br>
-          El menú tiene animacion cada vez que se pasa el cursor por arriba.<br><b>Se puede modificar a gusto y completar con todos los campos necesarios.</b><br>Te dejo el link de mi Github para que puedas verla en detalles.<br>
+      <p>
+        Developer specialized in Web Development. I am passionate about
+        transforming ideas into effective and unique digital solutions.
       </p>
-      <a href="https://github.com/diegoJ07/portafolio" target="_blank"><i class="fa-brands fa-github"></i>Mi Github</a>
+      <p>
+        Each project I undertake is based on the client's ideas and vision, to
+        which I bring my creativity and technical experience. I listen carefully
+        to every detail to fully understand your needs and goals. Subsequently,
+        I present an initial proposal that compiles and organizes your ideas,
+        serving as a basis for developing the project end. My goal is to
+        transform that vision into a tangible reality, taking care of every
+        detail to achieve a result that exceeds expectations.
+      </p>
     </div>
-    <!-- Agrega más proyectos según sea necesario -->
-  </section>
-
-  <section id="skills">
-    <h2>Habilidades</h2>
-    <!-- Lista de habilidades -->
-    <ul>
-      <li>Diseño Gráfico</li>
-      <li>UI/UX Design</li>
-      <li>Animación</li>
-      <li>Python</li>
-      <!-- Agrega más habilidades según sea necesario -->
-    </ul>
-  </section>
-
-  <section id="experience">
-    <h2>Experiencia Laboral</h2>
-    <!-- Detalles sobre experiencia laboral -->
-    <div class="job">
-      <h3>Diseñador Junior</h3>
+  </div>
+  <div class="portfolio" id="Portfolio">
+    <div class="portfolio-heading">
+      <h2>My Portfolio</h2>
     </div>
-    <!-- Agrega más roles laborales según sea necesario -->
-  </section>
-
-  <section id="education">
-    <h2>Educación</h2>
-    <!-- Detalles sobre educación -->
-    <div class="education">
-      <h3>Estudiante de Ingeniería Informática</h3>
-      <p>Universidad de Buenos Aires - Año de graduación esperada 2027</p>
+    <div class="container">
+      <div class="card">
+        <div class="card__img">
+          <img src="./imagenes/ng-global.jpg" alt="" />
+        </div>
+        <div class="card__title">
+          <h2>Ng Global Partners</h2>
+        </div>
+        <p>
+          This website was created with html, css and Javascript. Also worked
+          with node.js and bootstrap. SEO and uploading to the internet were
+          also carried out.
+        </p>
+        <div class="card__proyect-links">
+          <a href="https://github.com/diegoJ07/Hernan-proyect" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.ng-globalpartners.com/" target="_blank">
+            <i class="fas fa-globe-asia"></i>
+          </a>
+        </div>
+        <div class="button-content">
+          <!-- <button class="project-details-button download-cv">
+            <a href="#">Project Details</a>
+          </button> -->
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img">
+          <img src="./imagenes/Web-presentacion.jpg" alt="" />
+        </div>
+        <div class="card__title">
+          <h2>Page Description</h2>
+        </div>
+        <p>
+          This website was created with the objective of practicing data entry,
+          and when entered, the data is loaded and can be viewed. <br />
+          <br />
+          <br />
+        </p>
+        <div class="card__proyect-links">
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-globe-asia"></i>
+          </a>
+        </div>
+        <div class="button-content">
+          <!-- <button class="project-details-button download-cv">
+            <a href="#">Project Details</a>
+          </button> -->
+        </div>
+      </div>
     </div>
-    <!-- Agrega más detalles educativos según sea necesario -->
-  </section>
+    <div class="portfolio-heading">
+      <h2>Other jobs and projects</h2>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="card__img">
+          <img src="./imagenes/ng-global.jpg" alt="" />
+        </div>
+        <div class="card__title">
+          <h2>Secret messages</h2>
+        </div>
+        <p>
+          This is a project carried out with colleagues in Python. What I know
+          seeks in this project is the promotion of group work. Inside of the
+          app, the user must register and log in, and then write a message to be
+          encrypted and decrypted.
+        </p>
+        <div class="card__proyect-links">
+          <a
+            href="https://github.com/Joaquin5362656/Mensajes-Secretos"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="button-content">
+          <!-- <button class="project-details-button download-cv">
+            <a href="#">Project Details</a>
+          </button> -->
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img">
+          <img src="./imagenes/candy.jpg" alt="" />
+        </div>
+        <div class="card__title">
+          <h2>Stock sheet</h2>
+        </div>
+        <p>
+          This is a Stock token, so far it is a Beta phase, it is Made in
+          Python, the user must register and log in. Can enter quantity of
+          products and update and/or modify the list. HE you can see the
+          inventory. It is ordered by date or number of products.
+        </p>
+        <div class="card__proyect-links">
+          <a href="https://github.com/diegoJ07/ficha_de_stock">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-globe-asia"></i>
+          </a>
+        </div>
+        <div class="button-content">
+          <!-- <button class="project-details-button download-cv">
+            <a href="#">Project Details</a>
+          </button> -->
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img">
+          <img src="./imagenes/Web-presentacion.jpg" alt="" />
+        </div>
+        <div class="card__title">
+          <h2>Tester</h2>
+        </div>
+        <p>
+          In this project I carried out functional tests of a working website.
+          The problems that caused the evil were sought operation of the
+          website.
+        </p>
+        <div class="card__proyect-links">
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-globe-asia"></i>
+          </a>
+        </div>
+        <div class="button-content">
+          <!-- <button class="project-details-button download-cv">
+            <a href="#">Project Details</a>
+          </button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="skills">
+    <div class="my-skills">
+      <div class="portfolio-heading">
+        <h2 style="color: #000; padding-top: 100px">My Skills</h2>
+      </div>
+      <!-- Contenedor de tarjetas -->
+      <div class="container-skill">
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/html.png" alt="" />
+          </div>
+        </div>
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/css.png" alt="" />
+          </div>
+        </div>
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/javascript.png" alt="" />
+          </div>
+        </div>
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/ts.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="container-skill">
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/python.png" alt="" />
+          </div>
+        </div>
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/C.png" alt="" />
+          </div>
+        </div>
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/node.png" alt="" />
+          </div>
+        </div>
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/wordpress.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="container-skill">
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/bs.png" alt="" />
+          </div>
+        </div>
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/linux.png" alt="" />
+          </div>
+        </div>
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/github.png" alt="" />
+          </div>
+        </div>
+        <div class="card-skill">
+          <div class="card__img-skill">
+            <img src="./imagenes/vsc.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  
-    <!-- Otros elementos de tu página -->
-    <section id="contact">
-      <h2>Contacto</h2>
-      <form
-      action="https://formspree.io/mzblnazz" method="POST">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
-  
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required>
-  
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-  
-        <button type="submit">Enviar Mensaje</button>
-      </form>
-    </section>
-    <iframe src="https://pruebachatbot.com/chatbotsession/001f75a2-1005-47c7-8a41-bd2c8f282d99/37" height="300px" width="300px" frameBorder="0" border="none"></iframe>
+  <div class="contact-section" id="Contact-me">
+    <div class="contact-heading">
+      <h2>Contact Me</h2>
+    </div>
+    <div class="container-contact">
+      <img src="./imagenes/contacto.png" alt="" />
+      <div class="contact-form">
+        <h4>Send me a message...</h4>
+        <form class="form-group">
+          <input type="text" placeholder="Name" class="input" />
+          <input type="email" placeholder="Email" class="input" />
+          <textarea
+            name="message"
+            placeholder="Place your message here..."
+          ></textarea>
+          <button type="submit" class="btn-submit">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
-
-    <!-- Otros elementos de tu página -->
-</body>
-
-<footer>
-  <p>&copy; 2023 Diego Lopez. Todos los derechos reservados.</p>
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>Diego López</h2>
+      <h5>Frontend Developer</h5>
+    </div>
+    <div class="sotial-networks">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-twitter-square"></i>
+    </div>
   </footer>
-    
-
-</html>
-  
+</body>
