@@ -289,13 +289,17 @@ html {
 
 
 .contact-section {
-    padding: 3em;
+    padding: 2em 1em; /* Reduce el padding para pantallas pequeñas */
+    width: 100%; /* Asegura que ocupe todo el ancho */
 }
 
 .container-contact {
-    margin: 0 auto;
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Columnas para evitar cortes */
+    align-items: center; /* Centra los elementos */
+    width: 100%; /* Se adapta al ancho completo */
+    max-width: 600px; /* Ancho máximo para pantallas grandes */
+    margin: 0 auto; /* Centrado horizontal */
 }
 
 .contact-section img {
@@ -303,6 +307,32 @@ html {
     height: 700px;
     bottom: 0px;
 }
+
+.field {
+    margin-bottom: 10px;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+  }
 
 .form-group {
     display: flex;
@@ -609,7 +639,12 @@ html {
     }
 
     .form-group {
-        width: 90%;
+        width: 90%; /* Más pequeño en pantallas pequeñas */
+        padding: 1em; /* Ajusta el padding */
+    }
+
+    .form-group .btn-submit {
+        font-size: 1em; /* Ajusta el tamaño del texto */
     }
 
     .footer {
